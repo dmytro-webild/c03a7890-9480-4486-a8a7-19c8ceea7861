@@ -169,7 +169,7 @@ export default function LandingPage() {
       <div id="contact" data-section="contact" className={nunito.variable}>
         <ContactSplitForm
           title="Get in Touch with GreenBloom"
-          description="Have a question or need assistance? Our knowledgeable team is here to help. Fill out the form below or reach out directly."
+          description="Have a question or need assistance? Our knowledgeable team is here to help. Fill out the form below or reach out directly. Find our store location here: https://www.google.com/maps/search/?api=1&query=GreenBloom+Dispensary+Phuket"
           inputs={[
             { name: "name", type: "text", placeholder: "Your Name", required: true },
             { name: "email", type: "email", placeholder: "Your Email", required: true }

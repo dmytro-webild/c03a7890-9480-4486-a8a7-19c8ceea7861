@@ -67,7 +67,7 @@ export default function LandingPage() {
       <div id="about" data-section="about" className={nunito.variable}>
         <MediaAbout
           title="Our Commitment to Quality"
-          description="At GreenBloom Dispensary, we are dedicated to providing the finest selection of cannabis products. We source from reputable growers who prioritize sustainable and ethical practices, ensuring every product meets our stringent quality standards. Experience the difference of true craftsmanship and passion."
+          description="As pioneers in Thailand's burgeoning cannabis landscape, GreenBloom Dispensary is committed to setting the highest standards for quality, transparency, and education. We meticulously source our premium products from licensed Thai cultivators who adhere to sustainable and ethical practices, ensuring every item meets rigorous local regulations and our own stringent quality controls. Discover the profound wellness benefits and sophisticated craft of legal cannabis, cultivated and retailed with integrity in the heart of Phuket."
           tag="About Us"
           useInvertedBackground={true} 
           imageSrc="http://img.b2bpic.net/free-photo/doctor-patient-ophthalmologist-s-office_23-2150917700.jpg"
@@ -77,12 +77,12 @@ export default function LandingPage() {
       <div id="features" data-section="features" className={nunito.variable}>
         <FeatureCardTwentySeven
           title="Explore Our Diverse Offerings"
-          description="From aromatic flowers to delicious edibles and potent concentrates, GreenBloom Dispensary offers a carefully curated selection to suit every preference and need."
+          description="In compliance with Thailand's progressive cannabis laws, GreenBloom Dispensary offers a meticulously curated selection designed for informed wellness. We provide detailed insights into each product's effects, ensuring a sophisticated and transparent journey for every customer in Phuket and beyond. From aromatic flowers to delicious edibles and potent concentrates, explore a world crafted for well-being."
           tag="Our Products"
           features={[
-            { id: "flower", title: "Premium Flower Strains", descriptions: ["Discover a wide range of Indica, Sativa, and Hybrid strains.", "Each bud is hand-selected for optimal potency and flavor.", "Sustainably grown and rigorously lab-tested for purity."], imageSrc: "http://img.b2bpic.net/free-photo/top-view-organic-fresh-broccoli-supermarket_23-2148209733.jpg", imageAlt: "Various cannabis strains in glass jars" },
-            { id: "edibles", title: "Delicious & Discreet Edibles", descriptions: ["Indulge in our selection of gourmet chocolates, gummies, and baked goods.", "Perfectly dosed for a consistent and enjoyable experience.", "A tasty alternative for those who prefer not to smoke."], imageSrc: "http://img.b2bpic.net/free-photo/pile-green-menthol-candies-white-plate_114579-50589.jpg", imageAlt: "Assortment of cannabis edibles like gummies and chocolates" },
-            { id: "concentrates", title: "Potent Concentrates", descriptions: ["Experience the intense effects of our high-quality shatters, waxes, and oils.", "Ideal for experienced users seeking powerful relief and rich flavor profiles.", "Expertly extracted to preserve cannabinoids and terpenes."], imageSrc: "http://img.b2bpic.net/free-photo/glass-dry-chrysanthemum-flowers-stone-surface_114579-84355.jpg", imageAlt: "Glass jars containing cannabis concentrates" }
+            { id: "flower", title: "Premium Flower Strains", descriptions: ["Our premium flower strains, including Indica, Sativa, and Hybrids, are cultivated under strict Thai agricultural guidelines. Each batch is lab-tested to ensure purity, potency, and compliance, offering a safe and authentic experience.", "Each bud is hand-selected for optimal potency and flavor.", "Sustainably grown and rigorously lab-tested for purity."], imageSrc: "http://img.b2bpic.net/free-photo/top-view-organic-fresh-broccoli-supermarket_23-2148209733.jpg", imageAlt: "Various cannabis strains in glass jars" },
+            { id: "edibles", title: "Delicious & Discreet Edibles", descriptions: ["Experience our expertly dosed edibles, crafted with transparency and precision. We provide clear information on dosage and effects, empowering you to enjoy these discreet options responsibly and with confidence.", "Perfectly dosed for a consistent and enjoyable experience.", "A tasty alternative for those who prefer not to smoke."], imageSrc: "http://img.b2bpic.net/free-photo/pile-green-menthol-candies-white-plate_114579-50589.jpg", imageAlt: "Assortment of cannabis edibles like gummies and chocolates" },
+            { id: "concentrates", title: "Potent Concentrates", descriptions: ["For the connoisseur, our potent concentrates are produced using advanced, compliant extraction methods. We guarantee a pure, powerful, and safe product, reflecting the highest standards of cannabis science and quality.", "Ideal for experienced users seeking powerful relief and rich flavor profiles.", "Expertly extracted to preserve cannabinoids and terpenes."], imageSrc: "http://img.b2bpic.net/free-photo/glass-dry-chrysanthemum-flowers-stone-surface_114579-84355.jpg", imageAlt: "Glass jars containing cannabis concentrates" }
           ]}
           animationType="blur-reveal"
           textboxLayout="default"
@@ -92,7 +92,7 @@ export default function LandingPage() {
       <div id="products" data-section="products" className={nunito.variable}>
         <ProductCardTwo
           title="Featured Cannabis Products"
-          description="Explore our top-rated selection designed to enhance your well-being and elevate your experience."
+          description="Complying with all local regulations in Thailand and Phuket, our featured cannabis products represent the pinnacle of quality and safety. Each item in our top-rated selection is rigorously tested and responsibly sourced, designed to enhance your well-being and elevate your experience with complete confidence."
           tag="Shop Now"
           products={[
             { id: "product-1", brand: "Flora Farms", name: "Granddaddy Purple (Indica)", price: "$50.00 / 3.5g", rating: 5, reviewCount: "125 Reviews", imageSrc: "http://img.b2bpic.net/free-photo/cannabis-brownies-cannabis-leaves-put-white-floor_1150-28189.jpg", imageAlt: "Granddaddy Purple Indica strain" },
@@ -149,13 +149,13 @@ export default function LandingPage() {
       <div id="faq" data-section="faq" className={nunito.variable}>
         <FaqSplitMedia
           title="Frequently Asked Questions"
-          description="Find answers to common questions about our products, services, and regulations."
+          description="At GreenBloom Dispensary, transparency and education are paramount. Here, you'll find comprehensive answers to frequently asked questions regarding our premium cannabis products, compliant services, and adherence to Thailand's evolving cannabis regulations, ensuring a sophisticated and confident experience."
           tag="Support"
           faqs={[
-            { id: "1", title: "What are your delivery options?", content: "We offer discreet and fast delivery to all legal addresses within our service area. You can choose from standard or express delivery at checkout." },
-            { id: "2", title: "Are your products lab-tested?", content: "Absolutely. All GreenBloom products undergo rigorous third-party lab testing to ensure purity, potency, and absence of harmful contaminants. Certificates of analysis are available upon request." },
+            { id: "1", title: "What are your delivery options?", content: "We offer discreet and fast delivery to all legal addresses within our service area in Phuket and across Thailand where permitted. Our logistics prioritize your privacy and product integrity, with options for standard or express delivery at checkout." },
+            { id: "2", title: "Are your products lab-tested?", content: "Absolutely. All GreenBloom products undergo rigorous, independent third-party lab testing by accredited facilities in Thailand. This ensures verified purity, precise potency (THC/CBD levels), and confirmed absence of harmful contaminants, reflecting our unwavering commitment to product safety and consumer confidence. Certificates of analysis are readily available upon request." },
             { id: "3", title: "What payment methods do you accept?", content: "We accept various secure payment methods, including major credit/debit cards and secure online payment platforms. Specific options will be displayed at checkout." },
-            { id: "4", title: "Do I need a medical card to purchase?", content: "Depending on local regulations, a medical card may or may not be required. Please check your local laws or contact us for specific requirements in your region." }
+            { id: "4", title: "Do I need a medical card to purchase?", content: "As per current Thai cannabis regulations, a medical card is not universally required for recreational or wellness purchases. However, specific product categories or quantities might have nuanced requirements. Please consult the latest local guidelines in Phuket or contact our knowledgeable team for precise, up-to-date information on requirements in your region." }
           ]}
           imageSrc="http://img.b2bpic.net/free-photo/african-american-freelancer-solving-daily-tasks-with-music-headset_482257-120739.jpg"
           imageAlt="Diverse group of people asking questions"

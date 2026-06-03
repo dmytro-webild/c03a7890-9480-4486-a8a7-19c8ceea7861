@@ -33,7 +33,7 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav" className={nunito.variable}>
         <NavbarLayoutFloatingInline
-          brandName="GreenBloom Dispensary"
+          brandName="Max Weed"
           navItems={[
             { name: "Home", id: "#home" },
             { name: "About", id: "#about" },
@@ -186,7 +186,7 @@ export default function LandingPage() {
       </div>
       <div id="footer" data-section="footer" className={nunito.variable}>
         <FooterBaseCard
-          logoText="GreenBloom Dispensary"
+          logoText="Max Weed"
           columns={[
             { title: "Company", items: [{ label: "About Us", href: "#about" }, { label: "Our Mission", href: "#about" }] },
             { title: "Products", items: [{ label: "Flower", href: "#products" }, { label: "Edibles", href: "#products" }, { label: "Concentrates", href: "#products" }] },

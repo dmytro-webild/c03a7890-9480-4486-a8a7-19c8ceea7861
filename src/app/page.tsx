@@ -20,16 +20,16 @@ const nunito = Nunito({
 export default function LandingPage() {
   return (
     <ThemeProvider
-      defaultButtonVariant="text-stagger"
+      defaultButtonVariant="shift-hover"
       defaultTextAnimation="reveal-blur"
-      borderRadius="soft"
-      contentWidth="small"
+      borderRadius="rounded"
+      contentWidth="medium"
       sizing="largeSmallSizeMediumTitles"
-      background="noise"
-      cardStyle="subtle-shadow"
-      primaryButtonStyle="gradient"
-      secondaryButtonStyle="solid"
-      headingFontWeight="medium"
+      background="grid"
+      cardStyle="gradient-bordered"
+      primaryButtonStyle="diagonal-gradient"
+      secondaryButtonStyle="layered"
+      headingFontWeight="bold"
     >
       <div id="nav" data-section="nav" className={nunito.variable}>
         <NavbarLayoutFloatingInline
@@ -69,7 +69,7 @@ export default function LandingPage() {
           title="Our Commitment to Quality"
           description="At GreenBloom Dispensary, we are dedicated to providing the finest selection of cannabis products. We source from reputable growers who prioritize sustainable and ethical practices, ensuring every product meets our stringent quality standards. Experience the difference of true craftsmanship and passion."
           tag="About Us"
-          useInvertedBackground={false}
+          useInvertedBackground={true} 
           imageSrc="http://img.b2bpic.net/free-photo/doctor-patient-ophthalmologist-s-office_23-2150917700.jpg"
           imageAlt="Friendly staff helping a customer in a modern cannabis store"
         />
@@ -84,7 +84,7 @@ export default function LandingPage() {
             { id: "edibles", title: "Delicious & Discreet Edibles", descriptions: ["Indulge in our selection of gourmet chocolates, gummies, and baked goods.", "Perfectly dosed for a consistent and enjoyable experience.", "A tasty alternative for those who prefer not to smoke."], imageSrc: "http://img.b2bpic.net/free-photo/pile-green-menthol-candies-white-plate_114579-50589.jpg", imageAlt: "Assortment of cannabis edibles like gummies and chocolates" },
             { id: "concentrates", title: "Potent Concentrates", descriptions: ["Experience the intense effects of our high-quality shatters, waxes, and oils.", "Ideal for experienced users seeking powerful relief and rich flavor profiles.", "Expertly extracted to preserve cannabinoids and terpenes."], imageSrc: "http://img.b2bpic.net/free-photo/glass-dry-chrysanthemum-flowers-stone-surface_114579-84355.jpg", imageAlt: "Glass jars containing cannabis concentrates" }
           ]}
-          animationType="slide-up"
+          animationType="blur-reveal"
           textboxLayout="default"
           useInvertedBackground={true}
         />
@@ -103,9 +103,14 @@ export default function LandingPage() {
             { id: "product-6", brand: "Ready Rollers", name: "Classic Pre-Roll Pack", price: "$35.00 / 5pc", rating: 4, reviewCount: "70 Reviews", imageSrc: "http://img.b2bpic.net/free-photo/joss-stick-background-with-place-text-banner_460848-14685.jpg", imageAlt: "Pack of Classic Cannabis Pre-Rolls" }
           ]}
           gridVariant="three-columns-all-equal-width"
-          animationType="slide-up"
+          animationType="blur-reveal"
           textboxLayout="default"
-          useInvertedBackground={false}
+          useInvertedBackground={true}
+          cardClassName="border border-accent/20 bg-card/60 shadow-lg"
+          textBoxTitleClassName="font-bold text-foreground"
+          cardBrandClassName="text-accent uppercase"
+          cardNameClassName="text-foreground"
+          cardPriceClassName="font-semibold text-primary-cta"
         />
       </div>
       <div id="metrics" data-section="metrics" className={nunito.variable}>
@@ -118,7 +123,7 @@ export default function LandingPage() {
             { id: "metric-2", value: "99%", title: "Customer Satisfaction", description: "Our customers love our products and exceptional service.", imageSrc: "http://img.b2bpic.net/free-photo/close-up-woman-using-cbd-cream-pain_23-2150830175.jpg", imageAlt: "Happy customers" },
             { id: "metric-3", value: "Fast & Discreet", title: "Delivery Service", description: "Enjoy quick, reliable, and discreet delivery right to your doorstep.", imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-woman-talking-phone_23-2148767178.jpg", imageAlt: "Delivery truck in a city" }
           ]}
-          animationType="slide-up"
+          animationType="blur-reveal"
           textboxLayout="default"
           useInvertedBackground={true}
         />
@@ -136,9 +141,9 @@ export default function LandingPage() {
             { id: "5", name: "Linda & Tom B.", role: "Retirees", company: "Active Seniors", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/middle-aged-couple-having-fun-christmas_1187-689.jpg", imageAlt: "senior couple smiling together happy" }
           ]}
           gridVariant="three-columns-all-equal-width"
-          animationType="slide-up"
+          animationType="depth-3d"
           textboxLayout="default"
-          useInvertedBackground={false}
+          useInvertedBackground={true}
         />
       </div>
       <div id="faq" data-section="faq" className={nunito.variable}>
@@ -154,9 +159,9 @@ export default function LandingPage() {
           ]}
           imageSrc="http://img.b2bpic.net/free-photo/african-american-freelancer-solving-daily-tasks-with-music-headset_482257-120739.jpg"
           imageAlt="Diverse group of people asking questions"
-          mediaAnimation="slide-up"
+          mediaAnimation="blur-reveal"
           mediaPosition="right"
-          faqsAnimation="slide-up"
+          faqsAnimation="blur-reveal"
           textboxLayout="default"
           useInvertedBackground={true}
         />
@@ -170,12 +175,13 @@ export default function LandingPage() {
             { name: "email", type: "email", placeholder: "Your Email", required: true }
           ]}
           textarea={{ name: "message", placeholder: "Your Message", rows: 5, required: true }}
-          useInvertedBackground={false}
+          useInvertedBackground={true}
           imageSrc="http://img.b2bpic.net/free-photo/close-up-delivery-man-holding-net_23-2148773385.jpg"
           imageAlt="Modern cannabis dispensary exterior at night"
-          mediaAnimation="opacity"
+          mediaAnimation="blur-reveal"
           mediaPosition="left"
           buttonText="Send Message"
+          formCardClassName="bg-card/60 p-6 shadow-lg border border-accent/20"
         />
       </div>
       <div id="footer" data-section="footer" className={nunito.variable}>
@@ -187,6 +193,7 @@ export default function LandingPage() {
             { title: "Support", items: [{ label: "FAQ", href: "#faq" }, { label: "Contact Us", href: "#contact" }] }
           ]}
           copyrightText="© 2024 GreenBloom Dispensary | All rights reserved."
+          cardClassName="border-t border-accent/20 bg-card/60"
         />
       </div>
     </ThemeProvider>
